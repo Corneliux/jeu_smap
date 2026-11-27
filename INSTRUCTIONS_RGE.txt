@@ -1,0 +1,12 @@
+Sainte-Marie-à-Py V5.2, relief IGN RGE ALTI 5 m
+
+1. sudo apt install -y gdal-bin
+2. Place ton dossier RGE dans le projet ou conserve son chemin absolu.
+3. Depuis le dossier du projet :
+   python3 preparer_relief_rge.py RGE
+4. Vérifie : ls -lh data/terrain.json
+5. En mode hors ligne, installer la bibliothèque Three.js via bash installer_mode_hors_ligne.sh (une connexion est nécessaire une seule fois).
+6. Démarre python3 -m http.server 8002
+7. Ouvre http://localhost:8002
+
+La résolution originale des tuiles est de 5 m; la grille Web produite est plus légère pour l'affichage global.

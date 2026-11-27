@@ -1,0 +1,416 @@
+{
+  "version": "8",
+  "count": 51,
+  "cards": [
+    {
+      "id": "clean_citizens_1",
+      "title": "Nettoyage citoyen",
+      "description": "Des habitants ramassent les déchets le long de la Py.",
+      "kind": "eco",
+      "eco": 3,
+      "pyons": 0
+    },
+    {
+      "id": "clean_citizens_2",
+      "title": "Nettoyage citoyen",
+      "description": "Des habitants ramassent les déchets le long de la Py.",
+      "kind": "eco",
+      "eco": 3,
+      "pyons": 0
+    },
+    {
+      "id": "clean_citizens_3",
+      "title": "Nettoyage citoyen",
+      "description": "Des habitants ramassent les déchets le long de la Py.",
+      "kind": "eco",
+      "eco": 3,
+      "pyons": 0
+    },
+    {
+      "id": "clean_citizens_4",
+      "title": "Nettoyage citoyen",
+      "description": "Des habitants ramassent les déchets le long de la Py.",
+      "kind": "eco",
+      "eco": 3,
+      "pyons": 0
+    },
+    {
+      "id": "plant_1",
+      "title": "Plantation d’arbres",
+      "description": "Une plantation collective enrichit les berges.",
+      "kind": "eco",
+      "eco": 5,
+      "pyons": 0
+    },
+    {
+      "id": "plant_2",
+      "title": "Plantation d’arbres",
+      "description": "Une plantation collective enrichit les berges.",
+      "kind": "eco",
+      "eco": 5,
+      "pyons": 0
+    },
+    {
+      "id": "plant_3",
+      "title": "Plantation d’arbres",
+      "description": "Une plantation collective enrichit les berges.",
+      "kind": "eco",
+      "eco": 5,
+      "pyons": 0
+    },
+    {
+      "id": "clear_water_1",
+      "title": "Eau plus propre",
+      "description": "Une action locale améliore la qualité de l’eau.",
+      "kind": "both",
+      "eco": 2,
+      "pyons": 2
+    },
+    {
+      "id": "clear_water_2",
+      "title": "Eau plus propre",
+      "description": "Une action locale améliore la qualité de l’eau.",
+      "kind": "both",
+      "eco": 2,
+      "pyons": 2
+    },
+    {
+      "id": "clear_water_3",
+      "title": "Eau plus propre",
+      "description": "Une action locale améliore la qualité de l’eau.",
+      "kind": "both",
+      "eco": 2,
+      "pyons": 2
+    },
+    {
+      "id": "wildlife_1",
+      "title": "Biodiversité protégée",
+      "description": "Un habitat naturel est préservé.",
+      "kind": "eco",
+      "eco": 4,
+      "pyons": 0
+    },
+    {
+      "id": "wildlife_2",
+      "title": "Biodiversité protégée",
+      "description": "Un habitat naturel est préservé.",
+      "kind": "eco",
+      "eco": 4,
+      "pyons": 0
+    },
+    {
+      "id": "volunteers_1",
+      "title": "Mobilisation des habitants",
+      "description": "Les bénévoles s’engagent pour la rivière.",
+      "kind": "eco",
+      "eco": 6,
+      "pyons": 0
+    },
+    {
+      "id": "volunteers_2",
+      "title": "Mobilisation des habitants",
+      "description": "Les bénévoles s’engagent pour la rivière.",
+      "kind": "eco",
+      "eco": 6,
+      "pyons": 0
+    },
+    {
+      "id": "grant_1",
+      "title": "Subvention communale",
+      "description": "Une aide soutient les initiatives locales.",
+      "kind": "pyons",
+      "eco": 0,
+      "pyons": 5
+    },
+    {
+      "id": "grant_2",
+      "title": "Subvention communale",
+      "description": "Une aide soutient les initiatives locales.",
+      "kind": "pyons",
+      "eco": 0,
+      "pyons": 5
+    },
+    {
+      "id": "grant_3",
+      "title": "Subvention communale",
+      "description": "Une aide soutient les initiatives locales.",
+      "kind": "pyons",
+      "eco": 0,
+      "pyons": 5
+    },
+    {
+      "id": "association_1",
+      "title": "Don d’une association",
+      "description": "Une association apporte son soutien.",
+      "kind": "pyons",
+      "eco": 0,
+      "pyons": 4
+    },
+    {
+      "id": "association_2",
+      "title": "Don d’une association",
+      "description": "Une association apporte son soutien.",
+      "kind": "pyons",
+      "eco": 0,
+      "pyons": 4
+    },
+    {
+      "id": "tourism_1",
+      "title": "Tourisme local",
+      "description": "Les visiteurs font vivre le village.",
+      "kind": "pyons",
+      "eco": 0,
+      "pyons": 6
+    },
+    {
+      "id": "tourism_2",
+      "title": "Tourisme local",
+      "description": "Les visiteurs font vivre le village.",
+      "kind": "pyons",
+      "eco": 0,
+      "pyons": 6
+    },
+    {
+      "id": "eco_reward_1",
+      "title": "Récompense écologique",
+      "description": "Les efforts de protection sont récompensés.",
+      "kind": "both",
+      "eco": 2,
+      "pyons": 3
+    },
+    {
+      "id": "eco_reward_2",
+      "title": "Récompense écologique",
+      "description": "Les efforts de protection sont récompensés.",
+      "kind": "both",
+      "eco": 2,
+      "pyons": 3
+    },
+    {
+      "id": "sponsor_1",
+      "title": "Mécénat",
+      "description": "Un mécène aide le projet local.",
+      "kind": "pyons",
+      "eco": 0,
+      "pyons": 8
+    },
+    {
+      "id": "litter_1",
+      "title": "Déchets abandonnés",
+      "description": "Des déchets ont été abandonnés dans la nature.",
+      "kind": "eco",
+      "eco": -3,
+      "pyons": 0
+    },
+    {
+      "id": "litter_2",
+      "title": "Déchets abandonnés",
+      "description": "Des déchets ont été abandonnés dans la nature.",
+      "kind": "eco",
+      "eco": -3,
+      "pyons": 0
+    },
+    {
+      "id": "litter_3",
+      "title": "Déchets abandonnés",
+      "description": "Des déchets ont été abandonnés dans la nature.",
+      "kind": "eco",
+      "eco": -3,
+      "pyons": 0
+    },
+    {
+      "id": "pollution_1",
+      "title": "Pollution accidentelle",
+      "description": "Une pollution dégrade temporairement la rivière.",
+      "kind": "eco",
+      "eco": -5,
+      "pyons": 0
+    },
+    {
+      "id": "pollution_2",
+      "title": "Pollution accidentelle",
+      "description": "Une pollution dégrade temporairement la rivière.",
+      "kind": "eco",
+      "eco": -5,
+      "pyons": 0
+    },
+    {
+      "id": "work_1",
+      "title": "Travaux imprévus",
+      "description": "Une réparation imprévue coûte des Pyons.",
+      "kind": "pyons",
+      "eco": 0,
+      "pyons": -4
+    },
+    {
+      "id": "work_2",
+      "title": "Travaux imprévus",
+      "description": "Une réparation imprévue coûte des Pyons.",
+      "kind": "pyons",
+      "eco": 0,
+      "pyons": -4
+    },
+    {
+      "id": "flood_1",
+      "title": "Crue de la Py",
+      "description": "La crue entraîne des frais et des dégâts.",
+      "kind": "both",
+      "eco": -2,
+      "pyons": -2
+    },
+    {
+      "id": "flood_2",
+      "title": "Crue de la Py",
+      "description": "La crue entraîne des frais et des dégâts.",
+      "kind": "both",
+      "eco": -2,
+      "pyons": -2
+    },
+    {
+      "id": "banks_1",
+      "title": "Dégradation des berges",
+      "description": "Une portion de rive doit être restaurée.",
+      "kind": "eco",
+      "eco": -6,
+      "pyons": 0
+    },
+    {
+      "id": "help_1",
+      "title": "Coup de main",
+      "description": "Aide un autre joueur : donne 2 Pyons pour gagner 4 points éco.",
+      "kind": "choice_help",
+      "eco": 0,
+      "pyons": 0
+    },
+    {
+      "id": "help_2",
+      "title": "Coup de main",
+      "description": "Aide un autre joueur : donne 2 Pyons pour gagner 4 points éco.",
+      "kind": "choice_help",
+      "eco": 0,
+      "pyons": 0
+    },
+    {
+      "id": "project_1",
+      "title": "Projet participatif",
+      "description": "Projet collectif : chaque joueur peut contribuer 4 Pyons pour gagner 6 points éco, ou refuser.",
+      "kind": "choice_project",
+      "eco": 0,
+      "pyons": 0
+    },
+    {
+      "id": "project_2",
+      "title": "Projet participatif",
+      "description": "Projet collectif : chaque joueur peut contribuer 4 Pyons pour gagner 6 points éco, ou refuser.",
+      "kind": "choice_project",
+      "eco": 0,
+      "pyons": 0
+    },
+    {
+      "id": "discover_1",
+      "title": "Découverte naturelle",
+      "description": "Choisis une récompense : +3 Pyons ou +3 points éco.",
+      "kind": "choice_discover",
+      "eco": 0,
+      "pyons": 0
+    },
+    {
+      "id": "solidarity_1",
+      "title": "Solidarité locale",
+      "description": "Chaque autre joueur te donne 1 Pyon, dans la limite de ses moyens.",
+      "kind": "solidarity",
+      "eco": 0,
+      "pyons": 0
+    },
+    {
+      "id": "fishing_1",
+      "title": "Partir pêcher",
+      "description": "Direction la Voie du captage ! Au prochain tour, échappe-toi en attrapant cinq poissons en 30 secondes, en tentant le dé spécial, ou en payant 10 Pyons.",
+      "kind": "fishing",
+      "eco": 0,
+      "pyons": 0
+    },
+    {
+      "id": "fishing_2",
+      "title": "Partir pêcher",
+      "description": "Direction la Voie du captage ! Au prochain tour, échappe-toi en attrapant cinq poissons en 30 secondes, en tentant le dé spécial, ou en payant 10 Pyons.",
+      "kind": "fishing",
+      "eco": 0,
+      "pyons": 0
+    },
+    {
+      "id": "fishing_3",
+      "title": "Partir pêcher",
+      "description": "Direction la Voie du captage ! Au prochain tour, échappe-toi en attrapant cinq poissons en 30 secondes, en tentant le dé spécial, ou en payant 10 Pyons.",
+      "kind": "fishing",
+      "eco": 0,
+      "pyons": 0
+    },
+    {
+      "id": "fishing_4",
+      "title": "Partir pêcher",
+      "description": "Direction la Voie du captage ! Au prochain tour, échappe-toi en attrapant cinq poissons en 30 secondes, en tentant le dé spécial, ou en payant 10 Pyons.",
+      "kind": "fishing",
+      "eco": 0,
+      "pyons": 0
+    },
+    {
+      "id": "fishing_5",
+      "title": "Partir pêcher",
+      "description": "Direction la Voie du captage ! Au prochain tour, échappe-toi en attrapant cinq poissons en 30 secondes, en tentant le dé spécial, ou en payant 10 Pyons.",
+      "kind": "fishing",
+      "eco": 0,
+      "pyons": 0
+    },
+    {
+      "id": "fishing_6",
+      "title": "Partir pêcher",
+      "description": "Direction la Voie du captage ! Au prochain tour, échappe-toi en attrapant cinq poissons en 30 secondes, en tentant le dé spécial, ou en payant 10 Pyons.",
+      "kind": "fishing",
+      "eco": 0,
+      "pyons": 0
+    },
+    {
+      "id": "species_1",
+      "title": "Nouvelle espèce de batraciens",
+      "description": "Tu découvres une nouvelle espèce de batraciens. Choisis jusqu’à 2 cases libres de la Py près de ton personnage. S’il n’y en a plus, tu peux rejoindre une case adverse pour lancer une enchère. Aucune confiscation.",
+      "kind": "river_claim",
+      "claimCount": 2,
+      "eco": 0,
+      "pyons": 0
+    },
+    {
+      "id": "observatory_1",
+      "title": "Observatoire sur les hauteurs",
+      "description": "Un observatoire est créé sur les hauteurs du village. En attendant les propriétés du parcours patrimoine, choisis 1 case Py libre près de toi. Sinon, tu peux te rendre sur une propriété adverse pour lancer une enchère.",
+      "kind": "river_claim",
+      "claimCount": 1,
+      "eco": 0,
+      "pyons": 0
+    },
+    {
+      "id": "fishing_contest_1",
+      "title": "Concours de pêche",
+      "description": "Un grand concours de pêche est organisé : tout le monde part à la pêche sur la Voie du captage !",
+      "kind": "all_fishing",
+      "eco": 0,
+      "pyons": 0
+    },
+    {
+      "id": "rain_1",
+      "title": "Montée des eaux",
+      "description": "Une pluie importante arrive. L’eau va monter : tous les joueurs sortent immédiatement au pont le plus proche.",
+      "kind": "all_to_bridge",
+      "eco": 0,
+      "pyons": 0
+    },
+    {
+      "id": "survey_1",
+      "title": "Sondage communal",
+      "description": "Le conseil communal réunit tous les joueurs pour un sondage. Chacun donne son avis et reçoit un petit bonus selon sa réponse.",
+      "kind": "survey",
+      "eco": 0,
+      "pyons": 0
+    }
+  ]
+}

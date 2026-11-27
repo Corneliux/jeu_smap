@@ -1,0 +1,66 @@
+SAINTE-MARIE-À-PY 3D V5 : DONNÉES LOCALES + RELIEF IGN
+
+1. Dans le dossier, exécuter : bash installer_mode_hors_ligne.sh
+   Cette commande ne nécessite Internet qu’une fois pour Three.js.
+2. Installer le convertisseur raster : sudo apt install gdal-bin p7zip-full
+3. Télécharger les données BD ALTI 25 m ou RGE ALTI auprès de l’IGN pour la Marne (51).
+   Les décompresser dans un répertoire, par exemple ~/Téléchargements/BDALTI_51.
+4. Lancer : python3 preparer_relief.py ~/Téléchargements/BDALTI_51
+   Le script crée data/terrain.json. Si plusieurs fichiers couvrent la zone, il les assemble.
+5. Démarrer : python3 -m http.server 8002
+6. Ouvrir : http://localhost:8002
+
+SOURCES : © contributeurs OpenStreetMap (ODbL), © IGN (Licence Ouverte 2.0).
+Pas de requête Overpass, ni IGN, ni API pendant l'affichage. Three.js téléchargé une fois localement.
+Sans terrain.json, le modèle reste plat. L'altitude réelle n'est pas simulée.
+Les hauteurs des toitures restent approximatives. La grille 3D est découpée approximativement
+au périmètre OSM avec une maille de 38 m. Les routes sont drapées sur l'altitude calculée.
+
+
+Mise à jour V16.2 : ponts pictos, drapeau d'arrivée, suivi caméra, investissements Py, taxes et aperçu clignotant des trajets.
+
+- Correctif V16.6.10 : le nom de chaque destination est affiché directement sur la carte, à côté de chaque drapeau de choix.
+
+
+V16.6.13 : le nombre flottant a cote du drapeau d’arrivée a ete supprime. Apres une decision explicite (itineraire ou action Py), le joueur suivant commence automatiquement si aucune autre action n’est en attente. Les trajets uniques valides automatiquement ne forcent pas le passage au joueur suivant. Les tours sautes restent animes.
+
+
+V16.6.52 : simplification des choix de trajet ; boutons numérotés 1/2/3 ; pictogramme de pont sur les arrivées de pont ; numéros visibles sur la carte et dans la liste des choix.
+
+
+V16.6.52 : nouvelles cartes nénuphars (batraciens, observatoire, concours de pêche, montée des eaux, sondage communal), bandeau supérieur joueurs (Pyons / Éco / Patrimoine), panneau droit simplifié, informations non essentielles regroupées dans le panneau gauche, dés affichés en images D6.
+
+
+V16.6.54 : correction critique de l’ordre d’initialisation JavaScript. Le panneau des informations n’appelle plus byId avant la déclaration.
+
+
+- V16.6.72 : médaillons joueurs du haut agrandis, avatars plus grands, points et classements Pyons / Éco / Patrimoine visibles en direct.
+
+
+- V16.6.72 : ajout des cartes nénuphars “Tu aperçois…” avec photo animée et +10 éco, et de la carte “Tu acquiers toutes les cases libres adjacentes autour de toi”.
+
+
+V16.6.72 : médaillons du haut inspirés du schéma fourni, avatars agrandis, 3 compteurs iconographiques (monnaie, écologie, patrimoine) et rangs directs. Les textes des écrans de jeu et des cartes remplacent les noms de ressources par des pictogrammes. Infobulles explicatives.
+
+V16.6.72 : les cases Py libres dans les 150 m clignotent et sont cliquables directement sur la carte pendant les attributions des cartes nénuphars. Chaque acquisition actualise la sélection ; les boutons restent disponibles.
+
+V16.6.72 : médaillons portrait adaptés automatiquement aux 2 à 8 joueurs ; affichage sans défilement horizontal. Réglages en bas à droite, repliés en roue crantée dorée.
+
+V16.6.72 : avatars agrandis dans les médaillons portrait, hauteur adaptée selon le nombre de joueurs, scores et classements conservés.
+
+V16.6.72 : le pictogramme du nénuphar apparaît dans le choix de trajet quand la destination exacte est une case événement.
+
+V16.6.72 : musique d’ambiance coupée par défaut. Réglage manuel conservé et mémorisé séparément des anciennes préférences.
+
+
+V16.6.77 : les cartes de récompense de cases Py s’affichent avant leur sélection interactive sur la carte. Rangs et catégories correctement alignés dans la fiche du joueur actif.
+
+
+V16.6.77 : toutes les cartes attribuant des cases Py affichent d’abord leur événement ; les boutons de destinations ne contiennent plus de noms de rues, seulement numéro et pictos de catégorie / pont / nénuphar. Noms conservés sur carte et en infobulle.
+
+
+V16.6.77 : panneau actif simplifié (tour uniquement, dés en images sans répétition textuelle), en-tête des choix masqué quand aucun choix, bond de fin de tour sans affichage intempestif de « Passer mon tour ».
+
+
+## V16.6.80
+Le passage au joueur suivant nécessite toujours le clic explicite sur « Terminer mon tour ». Les choix d’investissement, de nettoyage, de taxe, les enchères et les cartes événement ne déclenchent plus de fin de tour automatique.

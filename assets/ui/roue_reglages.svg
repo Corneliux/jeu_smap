@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128" role="img" aria-label="Réglages">
+<defs><linearGradient id="gold" x1=".15" y1="0" x2=".9" y2="1"><stop stop-color="#fff4bf"/><stop offset=".55" stop-color="#d4a64e"/><stop offset="1" stop-color="#986524"/></linearGradient><linearGradient id="metal" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#557b57"/><stop offset="1" stop-color="#204b36"/></linearGradient></defs>
+<circle cx="64" cy="64" r="60" fill="url(#gold)" stroke="#775021" stroke-width="4"/>
+<circle cx="64" cy="64" r="51" fill="#e7ecd1" stroke="#f6e4a5" stroke-width="3"/>
+<g fill="url(#metal)" stroke="#133e2b" stroke-width="2.4" stroke-linejoin="round">
+<path d="M54 18 H74 L77 31 Q86 34 92 39 L105 34 L116 52 L105 62 Q106 69 103 76 L112 87 L98 103 L85 95 Q78 100 72 102 L68 115 H48 L46 101 Q38 97 34 92 L20 95 L12 76 L24 68 Q24 60 28 53 L18 42 L32 27 L44 35 Q49 31 52 30 Z"/>
+</g><circle cx="64" cy="66" r="23" fill="url(#gold)" stroke="#8c602c" stroke-width="3"/><circle cx="64" cy="66" r="12" fill="#e7ecd1" stroke="#b08548" stroke-width="2"/>
+<path d="M50 44 Q65 34 80 44" stroke="#f9eabc" stroke-width="4" fill="none" opacity=".6"/>
+</svg>

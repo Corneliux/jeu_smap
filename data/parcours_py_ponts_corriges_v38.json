@@ -1,0 +1,2136 @@
+{
+  "streets": [
+    {
+      "id": "R01",
+      "name": "Rue Dava",
+      "color": "#195dcb",
+      "purchaseable": true
+    },
+    {
+      "id": "R02",
+      "name": "Ruelle du Mont Salé",
+      "color": "#d3a200",
+      "purchaseable": true
+    },
+    {
+      "id": "R03",
+      "name": "Rue du Pont",
+      "color": "#e3781c",
+      "purchaseable": true
+    },
+    {
+      "id": "R04",
+      "name": "Petite Rue",
+      "color": "#258b55",
+      "purchaseable": true
+    },
+    {
+      "id": "R05",
+      "name": "Voie des Garrots",
+      "color": "#8b502d",
+      "purchaseable": true
+    },
+    {
+      "id": "R06",
+      "name": "Rue Neuve",
+      "color": "#cf3843",
+      "purchaseable": true
+    },
+    {
+      "id": "R07",
+      "name": "Rue du Berceau",
+      "color": "#252b35",
+      "purchaseable": true
+    },
+    {
+      "id": "R08",
+      "name": "Rue des Remparts du Nord",
+      "color": "#db53ae",
+      "purchaseable": true
+    },
+    {
+      "id": "R09",
+      "name": "Rue Damont",
+      "color": "#515866",
+      "purchaseable": true
+    },
+    {
+      "id": "R10",
+      "name": "Rue de Tahure",
+      "color": "#157da6",
+      "purchaseable": true
+    },
+    {
+      "id": "R11",
+      "name": "Voie des Ingles",
+      "color": "#e13b52",
+      "purchaseable": true
+    },
+    {
+      "id": "R12",
+      "name": "Rue de Saint-Étienne",
+      "color": "#4f9b23",
+      "purchaseable": true
+    },
+    {
+      "id": "R13",
+      "name": "Voie de la Salle",
+      "color": "#bea100",
+      "purchaseable": true
+    },
+    {
+      "id": "R14",
+      "name": "Voie du Mont Sedeu",
+      "color": "#bd3bbd",
+      "purchaseable": true
+    },
+    {
+      "id": "R15",
+      "name": "Voie de Vouziers",
+      "color": "#ef2d20",
+      "purchaseable": true
+    },
+    {
+      "id": "NEW_1793804544637",
+      "name": "Voie du captage",
+      "color": "#b45309",
+      "purchaseable": false
+    }
+  ],
+  "nodes": [
+    {
+      "id": "N01",
+      "x": 1097.45,
+      "y": 91.24,
+      "type": "confirmed",
+      "streetIds": [
+        "R12",
+        "R15"
+      ],
+      "streetNames": [
+        "Rue de Saint-Étienne",
+        "Voie de Vouziers"
+      ],
+      "confirmed": true,
+      "confirmation": "approuvé explicitement par utilisateur, 2026-11-04",
+      "previousType": "a_verifier"
+    },
+    {
+      "id": "N02",
+      "x": 1205.11,
+      "y": 205.45,
+      "type": "confirmed",
+      "streetIds": [
+        "R13",
+        "R15"
+      ],
+      "streetNames": [
+        "Voie de la Salle",
+        "Voie de Vouziers"
+      ],
+      "confirmed": true,
+      "confirmation": "approuvé explicitement par utilisateur, 2026-11-04",
+      "previousType": "a_verifier"
+    },
+    {
+      "id": "N03",
+      "x": 1287.47,
+      "y": 303.62,
+      "type": "confirmed",
+      "streetIds": [
+        "R08",
+        "R13"
+      ],
+      "streetNames": [
+        "Rue des Remparts du Nord",
+        "Voie de la Salle"
+      ],
+      "confirmed": true,
+      "confirmation": "approuvé explicitement par utilisateur, 2026-11-04",
+      "previousType": "a_verifier"
+    },
+    {
+      "id": "N04",
+      "x": 1183.89,
+      "y": 329.95,
+      "type": "confirmed",
+      "streetIds": [
+        "R07",
+        "R08",
+        "R12",
+        "R15"
+      ],
+      "streetNames": [
+        "Rue du Berceau",
+        "Rue des Remparts du Nord",
+        "Rue de Saint-Étienne",
+        "Voie de Vouziers"
+      ],
+      "confirmed": true,
+      "confirmation": "approuvé explicitement par utilisateur, 2026-11-04",
+      "previousType": "exact"
+    },
+    {
+      "id": "N05",
+      "x": 1474.93,
+      "y": 355.65,
+      "type": "confirmed",
+      "streetIds": [
+        "R08",
+        "R09"
+      ],
+      "streetNames": [
+        "Rue des Remparts du Nord",
+        "Rue Damont"
+      ],
+      "confirmed": true,
+      "confirmation": "approuvé explicitement par utilisateur, 2026-11-04",
+      "previousType": "a_verifier"
+    },
+    {
+      "id": "N06",
+      "x": 1521.36,
+      "y": 361.41,
+      "type": "confirmed",
+      "streetIds": [
+        "R09",
+        "R11"
+      ],
+      "streetNames": [
+        "Rue Damont",
+        "Voie des Ingles"
+      ],
+      "confirmed": true,
+      "confirmation": "approuvé explicitement par utilisateur, 2026-11-04",
+      "previousType": "a_verifier"
+    },
+    {
+      "id": "N07",
+      "x": 1362.36,
+      "y": 398.84,
+      "type": "confirmed",
+      "streetIds": [
+        "R09",
+        "R10"
+      ],
+      "streetNames": [
+        "Rue Damont",
+        "Rue de Tahure"
+      ],
+      "confirmed": true,
+      "confirmation": "approuvé explicitement par utilisateur, 2026-11-04",
+      "previousType": "a_verifier"
+    },
+    {
+      "id": "N08",
+      "x": 1206.95,
+      "y": 428.47,
+      "type": "confirmed",
+      "streetIds": [
+        "R01",
+        "R03",
+        "R09",
+        "R12"
+      ],
+      "streetNames": [
+        "Rue Dava",
+        "Rue du Pont",
+        "Rue Damont",
+        "Rue de Saint-Étienne"
+      ],
+      "confirmed": true,
+      "confirmation": "approuvé explicitement par utilisateur, 2026-11-04",
+      "previousType": "a_verifier"
+    },
+    {
+      "id": "N09",
+      "x": 1527.27,
+      "y": 495.66,
+      "type": "confirmed",
+      "streetIds": [
+        "R10",
+        "R11"
+      ],
+      "streetNames": [
+        "Rue de Tahure",
+        "Voie des Ingles"
+      ],
+      "confirmed": true,
+      "confirmation": "approuvé explicitement par utilisateur, 2026-11-04",
+      "previousType": "a_verifier"
+    },
+    {
+      "id": "N10",
+      "x": 1545.91,
+      "y": 507.92,
+      "type": "confirmed",
+      "streetIds": [
+        "R06",
+        "R10"
+      ],
+      "streetNames": [
+        "Rue Neuve",
+        "Rue de Tahure"
+      ],
+      "confirmed": true,
+      "confirmation": "approuvé explicitement par utilisateur, 2026-11-04",
+      "previousType": "a_verifier"
+    },
+    {
+      "id": "N11",
+      "x": 880.67,
+      "y": 542.51,
+      "type": "confirmed",
+      "streetIds": [
+        "R01",
+        "R07"
+      ],
+      "streetNames": [
+        "Rue Dava",
+        "Rue du Berceau"
+      ],
+      "confirmed": true,
+      "confirmation": "approuvé explicitement par utilisateur, 2026-11-04",
+      "previousType": "a_verifier"
+    },
+    {
+      "id": "N12",
+      "x": 781.31,
+      "y": 595.85,
+      "type": "confirmed",
+      "streetIds": [
+        "R01",
+        "R02"
+      ],
+      "streetNames": [
+        "Rue Dava",
+        "Ruelle du Mont Salé"
+      ],
+      "confirmed": true,
+      "confirmation": "approuvé explicitement par utilisateur, 2026-11-04",
+      "previousType": "a_verifier"
+    },
+    {
+      "id": "N13",
+      "x": 1239.42,
+      "y": 644.92,
+      "type": "confirmed",
+      "streetIds": [
+        "R03",
+        "R04",
+        "R06",
+        "R14"
+      ],
+      "streetNames": [
+        "Rue du Pont",
+        "Petite Rue",
+        "Rue Neuve",
+        "Voie du Mont Sedeu"
+      ],
+      "confirmed": true,
+      "confirmation": "approuvé explicitement par utilisateur, 2026-11-04",
+      "previousType": "a_verifier"
+    },
+    {
+      "id": "N14",
+      "x": 539.38,
+      "y": 650.97,
+      "type": "confirmed",
+      "streetIds": [
+        "NEW_1793804544637",
+        "R01"
+      ],
+      "streetNames": [
+        "Voie du captage",
+        "Rue Dava"
+      ],
+      "confirmed": true,
+      "confirmation": "approuvé explicitement par utilisateur, 2026-11-04",
+      "previousType": "a_verifier"
+    },
+    {
+      "id": "N15",
+      "x": 1118.44,
+      "y": 665.61,
+      "type": "confirmed",
+      "streetIds": [
+        "R04",
+        "R05"
+      ],
+      "streetNames": [
+        "Petite Rue",
+        "Voie des Garrots"
+      ],
+      "confirmed": true,
+      "confirmation": "approuvé explicitement par utilisateur, 2026-11-04",
+      "previousType": "a_verifier"
+    },
+    {
+      "id": "N16",
+      "x": 877.58,
+      "y": 803.5,
+      "type": "patrimoine",
+      "streetIds": [
+        "R02",
+        "R04"
+      ],
+      "streetNames": [
+        "Ruelle du Mont Salé",
+        "Petite Rue"
+      ],
+      "confirmed": true,
+      "confirmation": "approuvé explicitement par utilisateur, 2026-11-04",
+      "previousType": "patrimoine"
+    },
+    {
+      "id": "N17",
+      "x": 1141.85,
+      "y": 847.14,
+      "type": "terminus",
+      "streetIds": [
+        "R05"
+      ],
+      "streetNames": [
+        "Voie des Garrots"
+      ],
+      "confirmed": false,
+      "confirmation": "Extrémité de voie",
+      "previousType": "terminus"
+    },
+    {
+      "id": "N18",
+      "x": 1655.9,
+      "y": 315.98,
+      "type": "terminus",
+      "streetIds": [
+        "R09"
+      ],
+      "streetNames": [
+        "Rue Damont"
+      ],
+      "confirmed": false,
+      "confirmation": "Extrémité de voie",
+      "previousType": "terminus"
+    },
+    {
+      "id": "N19",
+      "x": 1981.64,
+      "y": 592.99,
+      "type": "terminus",
+      "streetIds": [
+        "R10"
+      ],
+      "streetNames": [
+        "Rue de Tahure"
+      ],
+      "confirmed": false,
+      "confirmation": "Extrémité de voie",
+      "previousType": "terminus"
+    },
+    {
+      "id": "N20",
+      "x": 1314.09,
+      "y": 800.31,
+      "type": "terminus",
+      "streetIds": [
+        "R14"
+      ],
+      "streetNames": [
+        "Voie du Mont Sedeu"
+      ],
+      "confirmed": false,
+      "confirmation": "Extrémité de voie",
+      "previousType": "terminus"
+    },
+    {
+      "id": "N21",
+      "x": 573.32,
+      "y": 750.56,
+      "type": "fishing",
+      "streetIds": [
+        "NEW_1793804544637"
+      ],
+      "streetNames": [
+        "Voie du captage"
+      ],
+      "confirmed": true,
+      "confirmation": "Case Pêche à extrémité sud-est de la Voie du captage — approuvée par utilisateur",
+      "previousType": "terminus",
+      "label": "Pêche (case-prison)"
+    }
+  ],
+  "edges": [
+    {
+      "id": "E001",
+      "streetId": "R01",
+      "streetName": "Rue Dava",
+      "color": "#195dcb",
+      "from": "N14",
+      "to": "N12",
+      "points": [
+        [
+          539.38,
+          650.97
+        ],
+        [
+          538.86,
+          648.48
+        ],
+        [
+          760.29,
+          602.31
+        ],
+        [
+          780.33,
+          593.6
+        ],
+        [
+          781.31,
+          595.85
+        ]
+      ],
+      "lengthPx": 253.04,
+      "source": "v26 tracé utilisateur, raccordements confirmés v28"
+    },
+    {
+      "id": "E002",
+      "streetId": "R01",
+      "streetName": "Rue Dava",
+      "color": "#195dcb",
+      "from": "N12",
+      "to": "N11",
+      "points": [
+        [
+          781.31,
+          595.85
+        ],
+        [
+          780.33,
+          593.6
+        ],
+        [
+          840.34,
+          567.49
+        ],
+        [
+          882.74,
+          546.75
+        ],
+        [
+          880.67,
+          542.51
+        ]
+      ],
+      "lengthPx": 119.82,
+      "source": "v26 tracé utilisateur, raccordements confirmés v28"
+    },
+    {
+      "id": "E003",
+      "streetId": "R01",
+      "streetName": "Rue Dava",
+      "color": "#195dcb",
+      "from": "N11",
+      "to": "N08",
+      "points": [
+        [
+          880.67,
+          542.51
+        ],
+        [
+          882.74,
+          546.75
+        ],
+        [
+          894.08,
+          541.2
+        ],
+        [
+          996.6,
+          490.03
+        ],
+        [
+          1081.85,
+          454.56
+        ],
+        [
+          1143.7,
+          440.85
+        ],
+        [
+          1205.8,
+          429.02
+        ],
+        [
+          1206.95,
+          428.47
+        ]
+      ],
+      "lengthPx": 352.1,
+      "source": "v26 tracé utilisateur, raccordements confirmés v28"
+    },
+    {
+      "id": "E004",
+      "streetId": "R02",
+      "streetName": "Ruelle du Mont Salé",
+      "color": "#d3a200",
+      "from": "N12",
+      "to": "N16",
+      "points": [
+        [
+          781.31,
+          595.85
+        ],
+        [
+          782.29,
+          598.1
+        ],
+        [
+          806.99,
+          655.07
+        ],
+        [
+          831.69,
+          715.84
+        ],
+        [
+          856.38,
+          776.61
+        ],
+        [
+          875.99,
+          802.79
+        ],
+        [
+          877.58,
+          803.5
+        ]
+      ],
+      "lengthPx": 230.19,
+      "source": "v26 tracé utilisateur, raccordements confirmés v28"
+    },
+    {
+      "id": "E005",
+      "streetId": "R03",
+      "streetName": "Rue du Pont",
+      "color": "#e3781c",
+      "from": "N08",
+      "to": "N13",
+      "points": [
+        [
+          1206.95,
+          428.47
+        ],
+        [
+          1206.97,
+          435.82
+        ],
+        [
+          1220.08,
+          491.65
+        ],
+        [
+          1235.36,
+          564.85
+        ],
+        [
+          1238.08,
+          640.55
+        ],
+        [
+          1239.42,
+          644.92
+        ]
+      ],
+      "lengthPx": 219.8,
+      "source": "v26 tracé utilisateur, raccordements confirmés v28"
+    },
+    {
+      "id": "E006",
+      "streetId": "R04",
+      "streetName": "Petite Rue",
+      "color": "#258b55",
+      "from": "N16",
+      "to": "N15",
+      "points": [
+        [
+          877.58,
+          803.5
+        ],
+        [
+          879.17,
+          804.15
+        ],
+        [
+          917.15,
+          779.46
+        ],
+        [
+          976.02,
+          738.61
+        ],
+        [
+          1036.04,
+          690.46
+        ],
+        [
+          1101.96,
+          664.08
+        ],
+        [
+          1117.39,
+          660.77
+        ],
+        [
+          1117.4,
+          660.77
+        ],
+        [
+          1118.44,
+          665.61
+        ]
+      ],
+      "lengthPx": 287.36,
+      "source": "v26 tracé utilisateur, raccordements confirmés v28"
+    },
+    {
+      "id": "E007",
+      "streetId": "R04",
+      "streetName": "Petite Rue",
+      "color": "#258b55",
+      "from": "N15",
+      "to": "N13",
+      "points": [
+        [
+          1118.44,
+          665.61
+        ],
+        [
+          1117.4,
+          660.77
+        ],
+        [
+          1177.41,
+          647.95
+        ],
+        [
+          1237.69,
+          644.84
+        ],
+        [
+          1239.42,
+          644.92
+        ]
+      ],
+      "lengthPx": 128.41,
+      "source": "v26 tracé utilisateur, raccordements confirmés v28"
+    },
+    {
+      "id": "E008",
+      "streetId": "R05",
+      "streetName": "Voie des Garrots",
+      "color": "#8b502d",
+      "from": "N15",
+      "to": "N17",
+      "points": [
+        [
+          1118.44,
+          665.61
+        ],
+        [
+          1119.46,
+          670.44
+        ],
+        [
+          1127.39,
+          729.79
+        ],
+        [
+          1126.3,
+          790.68
+        ],
+        [
+          1141.85,
+          847.14
+        ]
+      ],
+      "lengthPx": 184.28,
+      "source": "v26 tracé utilisateur, raccordements confirmés v28"
+    },
+    {
+      "id": "E009",
+      "streetId": "R06",
+      "streetName": "Rue Neuve",
+      "color": "#cf3843",
+      "from": "N13",
+      "to": "N10",
+      "points": [
+        [
+          1239.42,
+          644.92
+        ],
+        [
+          1241.49,
+          645.33
+        ],
+        [
+          1286.54,
+          646.48
+        ],
+        [
+          1340.66,
+          640.77
+        ],
+        [
+          1380.55,
+          620.83
+        ],
+        [
+          1422.33,
+          593.29
+        ],
+        [
+          1469.8,
+          556.25
+        ],
+        [
+          1508.74,
+          527.77
+        ],
+        [
+          1544.73,
+          510.83
+        ],
+        [
+          1545.91,
+          507.92
+        ]
+      ],
+      "lengthPx": 347.6,
+      "source": "v26 tracé utilisateur, raccordements confirmés v28"
+    },
+    {
+      "id": "E010",
+      "streetId": "R07",
+      "streetName": "Rue du Berceau",
+      "color": "#252b35",
+      "from": "N11",
+      "to": "N04",
+      "points": [
+        [
+          880.67,
+          542.51
+        ],
+        [
+          878.6,
+          538.27
+        ],
+        [
+          857.46,
+          484.38
+        ],
+        [
+          928.28,
+          433.64
+        ],
+        [
+          990.63,
+          402.97
+        ],
+        [
+          1047.71,
+          380.77
+        ],
+        [
+          1098.45,
+          361.74
+        ],
+        [
+          1146.01,
+          341.65
+        ],
+        [
+          1183.05,
+          329
+        ],
+        [
+          1183.89,
+          329.95
+        ]
+      ],
+      "lengthPx": 426.69,
+      "source": "v26 tracé utilisateur, raccordements confirmés v28"
+    },
+    {
+      "id": "E011",
+      "streetId": "R08",
+      "streetName": "Rue des Remparts du Nord",
+      "color": "#db53ae",
+      "from": "N04",
+      "to": "N03",
+      "points": [
+        [
+          1183.89,
+          329.95
+        ],
+        [
+          1186.86,
+          332.7
+        ],
+        [
+          1243.17,
+          317.65
+        ],
+        [
+          1288.14,
+          306.3
+        ],
+        [
+          1287.47,
+          303.62
+        ]
+      ],
+      "lengthPx": 111.48,
+      "source": "v26 tracé utilisateur, raccordements confirmés v28"
+    },
+    {
+      "id": "E012",
+      "streetId": "R08",
+      "streetName": "Rue des Remparts du Nord",
+      "color": "#db53ae",
+      "from": "N03",
+      "to": "N05",
+      "points": [
+        [
+          1287.47,
+          303.62
+        ],
+        [
+          1288.14,
+          306.3
+        ],
+        [
+          1291.23,
+          305.52
+        ],
+        [
+          1356.78,
+          289.41
+        ],
+        [
+          1418.5,
+          284.66
+        ],
+        [
+          1466.24,
+          290.26
+        ],
+        [
+          1471.68,
+          315.05
+        ],
+        [
+          1474.86,
+          351.65
+        ],
+        [
+          1474.93,
+          355.65
+        ]
+      ],
+      "lengthPx": 249.54,
+      "source": "v26 tracé utilisateur, raccordements confirmés v28"
+    },
+    {
+      "id": "E013",
+      "streetId": "R09",
+      "streetName": "Rue Damont",
+      "color": "#515866",
+      "from": "N08",
+      "to": "N07",
+      "points": [
+        [
+          1206.95,
+          428.47
+        ],
+        [
+          1208.65,
+          427.13
+        ],
+        [
+          1262.28,
+          414.58
+        ],
+        [
+          1319.35,
+          404.01
+        ],
+        [
+          1361.27,
+          395.26
+        ],
+        [
+          1362.36,
+          398.84
+        ]
+      ],
+      "lengthPx": 161.85,
+      "source": "v26 tracé utilisateur, raccordements confirmés v28"
+    },
+    {
+      "id": "E014",
+      "streetId": "R09",
+      "streetName": "Rue Damont",
+      "color": "#515866",
+      "from": "N07",
+      "to": "N05",
+      "points": [
+        [
+          1362.36,
+          398.84
+        ],
+        [
+          1361.27,
+          395.26
+        ],
+        [
+          1403.71,
+          382.07
+        ],
+        [
+          1473.14,
+          359.69
+        ],
+        [
+          1475.01,
+          359.65
+        ],
+        [
+          1474.93,
+          355.65
+        ]
+      ],
+      "lengthPx": 127,
+      "source": "v26 tracé utilisateur, raccordements confirmés v28"
+    },
+    {
+      "id": "E015",
+      "streetId": "R09",
+      "streetName": "Rue Damont",
+      "color": "#515866",
+      "from": "N05",
+      "to": "N06",
+      "points": [
+        [
+          1474.93,
+          355.65
+        ],
+        [
+          1475.01,
+          359.65
+        ],
+        [
+          1519.17,
+          358.73
+        ],
+        [
+          1520.71,
+          358.4
+        ],
+        [
+          1521.36,
+          361.41
+        ]
+      ],
+      "lengthPx": 52.82,
+      "source": "v26 tracé utilisateur, raccordements confirmés v28"
+    },
+    {
+      "id": "E016",
+      "streetId": "R09",
+      "streetName": "Rue Damont",
+      "color": "#515866",
+      "from": "N06",
+      "to": "N18",
+      "points": [
+        [
+          1521.36,
+          361.41
+        ],
+        [
+          1520.71,
+          358.4
+        ],
+        [
+          1589.6,
+          343.61
+        ],
+        [
+          1655.9,
+          315.98
+        ]
+      ],
+      "lengthPx": 145.37,
+      "source": "v26 tracé utilisateur, raccordements confirmés v28"
+    },
+    {
+      "id": "E017",
+      "streetId": "R10",
+      "streetName": "Rue de Tahure",
+      "color": "#157da6",
+      "from": "N07",
+      "to": "N09",
+      "points": [
+        [
+          1362.36,
+          398.84
+        ],
+        [
+          1363.43,
+          402.43
+        ],
+        [
+          1402.37,
+          424.26
+        ],
+        [
+          1459.37,
+          460.09
+        ],
+        [
+          1507,
+          488.77
+        ],
+        [
+          1526.81,
+          496.79
+        ],
+        [
+          1527.27,
+          495.66
+        ]
+      ],
+      "lengthPx": 193.9,
+      "source": "v26 tracé utilisateur, raccordements confirmés v28"
+    },
+    {
+      "id": "E018",
+      "streetId": "R10",
+      "streetName": "Rue de Tahure",
+      "color": "#157da6",
+      "from": "N09",
+      "to": "N10",
+      "points": [
+        [
+          1527.27,
+          495.66
+        ],
+        [
+          1526.81,
+          496.79
+        ],
+        [
+          1547.09,
+          505.01
+        ],
+        [
+          1545.91,
+          507.92
+        ]
+      ],
+      "lengthPx": 26.24,
+      "source": "v26 tracé utilisateur, raccordements confirmés v28"
+    },
+    {
+      "id": "E019",
+      "streetId": "R10",
+      "streetName": "Rue de Tahure",
+      "color": "#157da6",
+      "from": "N10",
+      "to": "N19",
+      "points": [
+        [
+          1545.91,
+          507.92
+        ],
+        [
+          1547.09,
+          505.01
+        ],
+        [
+          1552.31,
+          507.12
+        ],
+        [
+          1617.14,
+          520.88
+        ],
+        [
+          1692.97,
+          527.75
+        ],
+        [
+          1774.63,
+          547.68
+        ],
+        [
+          1865.94,
+          579.26
+        ],
+        [
+          1981.64,
+          592.99
+        ]
+      ],
+      "lengthPx": 448.37,
+      "source": "v26 tracé utilisateur, raccordements confirmés v28"
+    },
+    {
+      "id": "E020",
+      "streetId": "R11",
+      "streetName": "Voie des Ingles",
+      "color": "#e13b52",
+      "from": "N06",
+      "to": "N09",
+      "points": [
+        [
+          1521.36,
+          361.41
+        ],
+        [
+          1522.01,
+          364.42
+        ],
+        [
+          1524.86,
+          406.2
+        ],
+        [
+          1527.72,
+          451.79
+        ],
+        [
+          1527.73,
+          494.52
+        ],
+        [
+          1527.27,
+          495.66
+        ]
+      ],
+      "lengthPx": 134.6,
+      "source": "v26 tracé utilisateur, raccordements confirmés v28"
+    },
+    {
+      "id": "E021",
+      "streetId": "R12",
+      "streetName": "Rue de Saint-Étienne",
+      "color": "#4f9b23",
+      "from": "N01",
+      "to": "N04",
+      "points": [
+        [
+          1097.45,
+          91.24
+        ],
+        [
+          1097.52,
+          91.93
+        ],
+        [
+          1106.07,
+          134.66
+        ],
+        [
+          1122.47,
+          190.25
+        ],
+        [
+          1149.05,
+          267.38
+        ],
+        [
+          1183.05,
+          329
+        ],
+        [
+          1183.33,
+          330.09
+        ],
+        [
+          1183.89,
+          329.95
+        ]
+      ],
+      "lengthPx": 255.89,
+      "source": "v26 tracé utilisateur, raccordements confirmés v28"
+    },
+    {
+      "id": "E022",
+      "streetId": "R12",
+      "streetName": "Rue de Saint-Étienne",
+      "color": "#4f9b23",
+      "from": "N04",
+      "to": "N08",
+      "points": [
+        [
+          1183.89,
+          329.95
+        ],
+        [
+          1183.33,
+          330.09
+        ],
+        [
+          1206.11,
+          422.32
+        ],
+        [
+          1206.95,
+          428.47
+        ]
+      ],
+      "lengthPx": 101.79,
+      "source": "v26 tracé utilisateur, raccordements confirmés v28"
+    },
+    {
+      "id": "E023",
+      "streetId": "R13",
+      "streetName": "Voie de la Salle",
+      "color": "#bea100",
+      "from": "N02",
+      "to": "N03",
+      "points": [
+        [
+          1205.11,
+          205.45
+        ],
+        [
+          1207.02,
+          205.65
+        ],
+        [
+          1241.73,
+          196.52
+        ],
+        [
+          1269.13,
+          200.79
+        ],
+        [
+          1275.22,
+          226.97
+        ],
+        [
+          1281.3,
+          270.2
+        ],
+        [
+          1286.81,
+          300.96
+        ],
+        [
+          1287.47,
+          303.62
+        ]
+      ],
+      "lengthPx": 170.07,
+      "source": "v26 tracé utilisateur, raccordements confirmés v28"
+    },
+    {
+      "id": "E024",
+      "streetId": "R14",
+      "streetName": "Voie du Mont Sedeu",
+      "color": "#bd3bbd",
+      "from": "N13",
+      "to": "N20",
+      "points": [
+        [
+          1239.42,
+          644.92
+        ],
+        [
+          1240.43,
+          648.92
+        ],
+        [
+          1256.16,
+          681.62
+        ],
+        [
+          1272.3,
+          718.64
+        ],
+        [
+          1288.34,
+          743.92
+        ],
+        [
+          1314.09,
+          800.31
+        ]
+      ],
+      "lengthPx": 172.73,
+      "source": "v26 tracé utilisateur, raccordements confirmés v28"
+    },
+    {
+      "id": "E025",
+      "streetId": "R15",
+      "streetName": "Voie de Vouziers",
+      "color": "#ef2d20",
+      "from": "N01",
+      "to": "N02",
+      "points": [
+        [
+          1097.45,
+          91.24
+        ],
+        [
+          1097.39,
+          90.55
+        ],
+        [
+          1159.51,
+          77.77
+        ],
+        [
+          1173.52,
+          132.58
+        ],
+        [
+          1210.66,
+          133.8
+        ],
+        [
+          1203.2,
+          205.26
+        ],
+        [
+          1205.11,
+          205.45
+        ]
+      ],
+      "lengthPx": 231.61,
+      "source": "v26 tracé utilisateur, raccordements confirmés v28"
+    },
+    {
+      "id": "E026",
+      "streetId": "R15",
+      "streetName": "Voie de Vouziers",
+      "color": "#ef2d20",
+      "from": "N02",
+      "to": "N04",
+      "points": [
+        [
+          1205.11,
+          205.45
+        ],
+        [
+          1203.2,
+          205.26
+        ],
+        [
+          1199.09,
+          244.63
+        ],
+        [
+          1183.05,
+          329
+        ],
+        [
+          1183.89,
+          329.95
+        ]
+      ],
+      "lengthPx": 128.65,
+      "source": "v26 tracé utilisateur, raccordements confirmés v28"
+    },
+    {
+      "id": "E027",
+      "streetId": "NEW_1793804544637",
+      "streetName": "Voie du captage",
+      "color": "#b45309",
+      "from": "N21",
+      "to": "N14",
+      "points": [
+        [
+          573.32,
+          750.56
+        ],
+        [
+          550.78,
+          741.45
+        ],
+        [
+          546.88,
+          715.44
+        ],
+        [
+          544.71,
+          685.53
+        ],
+        [
+          539.95,
+          653.46
+        ],
+        [
+          539.38,
+          650.97
+        ]
+      ],
+      "lengthPx": 115.58,
+      "source": "v26 tracé utilisateur, raccordements confirmés v28"
+    }
+  ],
+  "places": [
+    {
+      "id": "P01",
+      "name": "Les bunkers",
+      "map": "territoire",
+      "status": "valide",
+      "number": 1
+    },
+    {
+      "id": "P02",
+      "name": "Ossuaire de Navarin",
+      "map": "territoire",
+      "status": "valide",
+      "number": 2
+    },
+    {
+      "id": "P03",
+      "name": "Croix rue Dava",
+      "map": "bourg",
+      "status": "valide",
+      "number": 3
+    },
+    {
+      "id": "P04",
+      "name": "Croix du Mont Sedeu",
+      "map": "bourg",
+      "status": "valide",
+      "number": 4
+    },
+    {
+      "id": "P05",
+      "name": "Mairie : Otto Dix",
+      "map": "bourg",
+      "status": "valide",
+      "number": 5
+    },
+    {
+      "id": "P06",
+      "name": "Église Notre-Dame",
+      "map": "bourg",
+      "status": "valide",
+      "number": 6
+    },
+    {
+      "id": "P07",
+      "name": "Monument aux Morts",
+      "map": "bourg",
+      "status": "valide",
+      "number": 7
+    },
+    {
+      "id": "P08",
+      "name": "Ancienne gare",
+      "map": "bourg",
+      "status": "provisoire",
+      "number": 8
+    },
+    {
+      "id": "P09",
+      "name": "Cabane dans les bois",
+      "map": "bourg",
+      "status": "provisoire",
+      "number": 9
+    },
+    {
+      "id": "P10",
+      "name": "Notre-Dame-des-Champs",
+      "map": "territoire",
+      "status": "valide",
+      "number": 10
+    }
+  ],
+  "specialCase": {
+    "id": "CASE_PECHE",
+    "name": "Pêche",
+    "type": "prison",
+    "network": "road",
+    "streetId": "NEW_1793804544637",
+    "streetName": "Voie du captage",
+    "nodeId": "N21",
+    "x": 573.32,
+    "y": 750.56,
+    "endpoint": "extrémité sud-est",
+    "onLanding": "Entrée dans la case Pêche : appliquer la règle case-prison.",
+    "exitChoice": [
+      "payer pour sortir (tarif à fixer)",
+      "lancer le dé spécial jusqu’à obtenir la face poisson"
+    ],
+    "specialDie": "Face poisson permet de sortir; autres faces et conséquences à paramétrer selon les règles du jeu.",
+    "costs": "non définis",
+    "confirmedByUser": true
+  },
+  "river": {
+    "version": "V38-édition-utilisateur",
+    "status": "Tracé Py et ponts modifiés par l’utilisateur ; routes V37 préservées",
+    "name": "La Py — promenade écologique",
+    "bridges": [
+      {
+        "id": "BR_O",
+        "name": "Pont Ouest",
+        "x": 822.61,
+        "y": 696.29,
+        "anchorEdgeId": "E004",
+        "anchorStreetId": "R02",
+        "riverIndex": 0,
+        "type": "bridge",
+        "anchorDistance": 1.05,
+        "roadConnection": {
+          "edgeId": "E004",
+          "x": 823.58,
+          "y": 695.89,
+          "distancePx": 1.05,
+          "verified": false
+        }
+      },
+      {
+        "id": "BR_C",
+        "name": "Pont Central",
+        "x": 1235.54,
+        "y": 577.6,
+        "anchorEdgeId": "E005",
+        "anchorStreetId": "R03",
+        "riverIndex": 14,
+        "type": "bridge",
+        "anchorDistance": 0.28,
+        "roadConnection": {
+          "edgeId": "E005",
+          "x": 1235.82,
+          "y": 577.59,
+          "distancePx": 0.28,
+          "verified": false
+        }
+      },
+      {
+        "id": "BR_T",
+        "name": "Pont Tahure",
+        "x": 1411.68,
+        "y": 430.12,
+        "anchorEdgeId": "E017",
+        "anchorStreetId": "R10",
+        "riverIndex": 28,
+        "type": "bridge",
+        "anchorDistance": 0.01,
+        "roadConnection": {
+          "edgeId": "E017",
+          "x": 1411.68,
+          "y": 430.11,
+          "distancePx": 0.01,
+          "verified": false
+        }
+      },
+      {
+        "id": "BR_E",
+        "name": "Pont Est",
+        "x": 1529.29,
+        "y": 432.69,
+        "anchorEdgeId": "E020",
+        "anchorStreetId": "R11",
+        "riverIndex": 42,
+        "type": "bridge",
+        "anchorDistance": 2.76,
+        "roadConnection": {
+          "edgeId": "E020",
+          "x": 1526.53,
+          "y": 432.86,
+          "distancePx": 2.76,
+          "verified": false
+        }
+      }
+    ],
+    "segments": [
+      {
+        "id": "W",
+        "name": "Les bunkers (ouest, hors cadrage) → Pont Ouest",
+        "bridgeFrom": "PY_BUNKERS",
+        "bridgeTo": "BR_O",
+        "caseCount": 13,
+        "path": [
+          [
+            106.09,
+            1047.1
+          ],
+          [
+            132.22,
+            1047.1
+          ],
+          [
+            160.36,
+            1045.76
+          ],
+          [
+            195.87,
+            1049.78
+          ],
+          [
+            229.37,
+            1035.71
+          ],
+          [
+            258.18,
+            1008.91
+          ],
+          [
+            239.42,
+            953.98
+          ],
+          [
+            250.14,
+            910.43
+          ],
+          [
+            280.96,
+            834.72
+          ],
+          [
+            352.99,
+            824.93
+          ],
+          [
+            363.36,
+            881.62
+          ],
+          [
+            408.15,
+            905.35
+          ],
+          [
+            432.38,
+            884.21
+          ],
+          [
+            418.46,
+            849.16
+          ],
+          [
+            454.77,
+            796.81
+          ],
+          [
+            483.57,
+            759.78
+          ],
+          [
+            534.7,
+            756.26
+          ],
+          [
+            580.43,
+            781.68
+          ],
+          [
+            632.15,
+            812.83
+          ],
+          [
+            660.95,
+            856.32
+          ],
+          [
+            707.37,
+            846.91
+          ],
+          [
+            704.43,
+            794.61
+          ],
+          [
+            700.91,
+            760.52
+          ],
+          [
+            734.41,
+            732.9
+          ],
+          [
+            774.15,
+            729.22
+          ],
+          [
+            780.31,
+            698.43
+          ],
+          [
+            801.19,
+            716.1
+          ],
+          [
+            822.61,
+            696.29
+          ]
+        ],
+        "specialIndices": [
+          3,
+          6,
+          10,
+          13
+        ],
+        "extension": true,
+        "status": "proposition à préciser sur carte élargie"
+      },
+      {
+        "id": "A",
+        "name": "Pont Ouest → Pont Central",
+        "bridgeFrom": "BR_O",
+        "bridgeTo": "BR_C",
+        "caseCount": 13,
+        "path": [
+          [
+            822.61,
+            696.29
+          ],
+          [
+            847.2,
+            670.77
+          ],
+          [
+            871.86,
+            657.85
+          ],
+          [
+            882.66,
+            678.75
+          ],
+          [
+            910.38,
+            671.24
+          ],
+          [
+            956.26,
+            634.7
+          ],
+          [
+            984.09,
+            630.18
+          ],
+          [
+            981.4,
+            602.93
+          ],
+          [
+            1017.58,
+            603.38
+          ],
+          [
+            1057.82,
+            578.05
+          ],
+          [
+            1100.33,
+            573.98
+          ],
+          [
+            1123.39,
+            570.37
+          ],
+          [
+            1149.62,
+            566.3
+          ],
+          [
+            1182.18,
+            571.72
+          ],
+          [
+            1208.41,
+            574.89
+          ],
+          [
+            1235.54,
+            577.6
+          ]
+        ],
+        "specialIndices": [
+          3,
+          6,
+          10,
+          13
+        ]
+      },
+      {
+        "id": "B",
+        "name": "Pont Central → Pont Tahure",
+        "bridgeFrom": "BR_C",
+        "bridgeTo": "BR_T",
+        "caseCount": 13,
+        "path": [
+          [
+            1235.54,
+            577.6
+          ],
+          [
+            1279.82,
+            585.12
+          ],
+          [
+            1308.97,
+            594.04
+          ],
+          [
+            1335.05,
+            605.71
+          ],
+          [
+            1356.83,
+            599.27
+          ],
+          [
+            1361.29,
+            574.5
+          ],
+          [
+            1360.16,
+            529.93
+          ],
+          [
+            1362.47,
+            485.36
+          ],
+          [
+            1373.92,
+            447.65
+          ],
+          [
+            1388.78,
+            431.66
+          ],
+          [
+            1411.68,
+            430.12
+          ]
+        ],
+        "specialIndices": [
+          3,
+          6,
+          10,
+          13
+        ],
+        "anguilleIndex": 8
+      },
+      {
+        "id": "C",
+        "name": "Pont Tahure → Pont Est",
+        "bridgeFrom": "BR_T",
+        "bridgeTo": "BR_E",
+        "caseCount": 13,
+        "path": [
+          [
+            1411.68,
+            430.12
+          ],
+          [
+            1443.62,
+            423.45
+          ],
+          [
+            1465.3,
+            427.07
+          ],
+          [
+            1492.56,
+            426.43
+          ],
+          [
+            1508.84,
+            443.68
+          ],
+          [
+            1529.29,
+            432.69
+          ]
+        ],
+        "specialIndices": [
+          3,
+          6,
+          10,
+          13
+        ]
+      },
+      {
+        "id": "E",
+        "name": "Pont Est → Nord-est de la carte",
+        "bridgeFrom": "BR_E",
+        "bridgeTo": "PY_NE",
+        "caseCount": 13,
+        "path": [
+          [
+            1529.29,
+            432.69
+          ],
+          [
+            1552.18,
+            430.24
+          ],
+          [
+            1569.28,
+            443.37
+          ],
+          [
+            1588.62,
+            426.47
+          ],
+          [
+            1596.63,
+            448.69
+          ],
+          [
+            1636.73,
+            436.65
+          ],
+          [
+            1654.74,
+            428.11
+          ],
+          [
+            1669.7,
+            422.61
+          ],
+          [
+            1690.15,
+            412.54
+          ],
+          [
+            1691.98,
+            369.2
+          ],
+          [
+            1711.21,
+            383.24
+          ],
+          [
+            1725.25,
+            398.2
+          ],
+          [
+            1748.74,
+            393.09
+          ],
+          [
+            1773.16,
+            358.9
+          ],
+          [
+            1810.1,
+            376.91
+          ],
+          [
+            1813.76,
+            338.15
+          ],
+          [
+            1843.57,
+            330.26
+          ],
+          [
+            1882.04,
+            356.45
+          ],
+          [
+            1928.46,
+            333.44
+          ],
+          [
+            1900.31,
+            317.38
+          ],
+          [
+            1946.31,
+            286.63
+          ],
+          [
+            1981.72,
+            287.69
+          ],
+          [
+            1990.99,
+            255.61
+          ],
+          [
+            2023.11,
+            270.76
+          ]
+        ],
+        "specialIndices": [
+          3,
+          6,
+          10,
+          13
+        ],
+        "extension": true,
+        "status": "proposition à caler sur la Py"
+      }
+    ],
+    "rules": {
+      "bridgeEntry": "Pont atteint depuis une rue : suivre obligatoirement la Py jusqu’au pont suivant, même sur plusieurs tours.",
+      "investment": "Chaque case de la Py est investissable ; plus de 50 % de la somme investie fait du joueur le mécène principal.",
+      "whiteStop": "Choisir nettoyer les berges (bonus et prochain tour sauté) ou céder un point écologique.",
+      "event": "4 cases événement ou bonus par tronçon ; cartes événement à développer.",
+      "ecologyExemption": "Sur une case blanche de la Py, un joueur détenant au moins 25 % du total investi sur cette même case est dispensé de nettoyage et de dépense écologique.",
+      "cleanUpgrade": "Chaque action de nettoyage fait progresser la case de +1 niveau d’amélioration et fait sauter le prochain tour au nettoyeur."
+    },
+    "terminals": [
+      {
+        "id": "PY_BUNKERS",
+        "name": "Vers les bunkers (hors carte actuelle)",
+        "x": 106.09,
+        "y": 1047.1,
+        "riverIndex": -14,
+        "type": "river_terminal",
+        "destination": "Les bunkers",
+        "locationStatus": "à placer sur carte du territoire; limite occidentale du fond actuel"
+      },
+      {
+        "id": "PY_NE",
+        "name": "Sortie nord-est de la Py",
+        "x": 2023.11,
+        "y": 270.76,
+        "riverIndex": 56,
+        "type": "river_terminal",
+        "destination": "Nord-est de la carte",
+        "locationStatus": "limite nord-est du fond fourni"
+      }
+    ],
+    "notes": "Le point des bunkers est hors du fond actuel : terminus logique placé sur le bord gauche, non localisé exactement. Corriger sur fond territorial élargi avant validation."
+  },
+  "mapAlignment": {
+    "baseMap": "fond_carte_commune.jpg",
+    "width": 2048,
+    "height": 1109,
+    "method": "SIFT / RANSAC : transformation affine entre fonds originaux",
+    "affineFromV35Base": [
+      [
+        1.14279258,
+        -0.00051111,
+        -28.09296312
+      ],
+      [
+        0.00051111,
+        1.14279258,
+        3.62204274
+      ]
+    ],
+    "scaleFactor": 1.142793,
+    "removedV35RoadYOffsetBeforeProjection": 25,
+    "userRiverGeometry": "préservée et projetée uniquement sur le nouveau fond",
+    "sourceUserFile": "parcours_py_et_ponts_corriges_v35.json",
+    "roadsOffsetX": 0,
+    "roadsOffsetY": 0,
+    "status": "recalage automatique visuel, retouches manuelles encore possibles dans l’éditeur",
+    "roadsLockedInEditor": true,
+    "riverEditedInEditor": true,
+    "source": "V37 recalée ; fond identique ; uniquement la Py modifiée"
+  }
+}

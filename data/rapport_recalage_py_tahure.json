@@ -1,0 +1,27 @@
+{
+  "source_map": "data/osm-local.geojson - waterway stream",
+  "projection": "EPSG:2154",
+  "bridge_Tahure_offset_m": 18.16,
+  "bridge_position_preserved": true,
+  "sections": [
+    {
+      "section": "B",
+      "cases": 24,
+      "length_m": 291.31,
+      "spacing_m": 12.138,
+      "max_dev_from_osm_m": 18.16,
+      "start_bridge": "BR_C",
+      "end_bridge": "BR_T"
+    },
+    {
+      "section": "C",
+      "cases": 12,
+      "length_m": 140.16,
+      "spacing_m": 11.68,
+      "max_dev_from_osm_m": 18.16,
+      "start_bridge": "BR_T",
+      "end_bridge": "BR_E"
+    }
+  ],
+  "note": "Alignement sur OSM hors zone de raccordement du pont; validité terrain du pont non contrôlée"
+}

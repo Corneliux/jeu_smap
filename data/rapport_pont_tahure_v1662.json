@@ -1,0 +1,20 @@
+{
+  "pont": "BR_T",
+  "ancien_wgs84": [
+    4.504347800000001,
+    49.23879849
+  ],
+  "nouveau_wgs84": [
+    4.504122953288526,
+    49.23888529448929
+  ],
+  "ancien_ecart_axe_py_m": 18.164,
+  "deplacement_pont_m": 19.011,
+  "nouveau_ecart_axe_py_m": 0.0,
+  "nouveau_ecart_route_ign_m": 0.0,
+  "methode": "Intersection exacte des axes La Py OSM et Rue de Tahure V38 E017, projetés en Lambert-93 EPSG:2154",
+  "sections_reechantillonnees": [
+    "B",
+    "C"
+  ]
+}

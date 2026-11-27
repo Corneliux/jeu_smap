@@ -1,0 +1,6 @@
+Tests du moteur de parcours V16.6.41 (données V38 locales) :
+- 4 ponts : les deux directions de Py (amont / aval) sont proposées.
+- Depuis une route, traverser chaque pont dans les directions accessibles : les trajets de 7 cases sont calculés sans arrêt prématuré.
+- Sortie de pêche : Voie du Captage, Py aval, Py amont, trois trajets de 6 cases calculés.
+- Vérification de la syntaxe ECMAScript par node --check.
+Le test interactif en navigateur et le rendu des animations restent à effectuer.

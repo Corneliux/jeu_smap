@@ -1,0 +1,42 @@
+{
+  "sighting_kingfisher_1": {
+    "filename": "martin_pecheur.png",
+    "wikimedia": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9d/Alcedo_Atthis.jpg/960px-Alcedo_Atthis.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Alcedo_Atthis.jpg",
+    "author": "Artemy Voikhansky",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  "sighting_jay_1": {
+    "filename": "geai_des_chenes.png",
+    "wikimedia": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Eurasian_Jay_-_Garrulus_glandarius.jpeg/960px-Eurasian_Jay_-_Garrulus_glandarius.jpeg",
+    "page": "https://commons.wikimedia.org/wiki/File:Eurasian_Jay_-_Garrulus_glandarius.jpeg",
+    "author": "Th. Voekler",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0/"
+  },
+  "sighting_trout_1": {
+    "filename": "truite.png",
+    "wikimedia": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/28/Brown_Trout_%28Salmo_trutta%29.jpg/960px-Brown_Trout_%28Salmo_trutta%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Brown_Trout_(Salmo_trutta).jpg",
+    "author": "USFWS Mountain Prairie / Sam Stukel",
+    "license": "Domaine public (Public Domain Mark)",
+    "license_url": "https://creativecommons.org/publicdomain/mark/1.0/"
+  },
+  "sighting_calopteryx_1": {
+    "filename": "calopteryx_eclatant.png",
+    "wikimedia": "https://upload.wikimedia.org/wikipedia/commons/3/36/Calopteryx_splendens.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Calopteryx_splendens.jpg",
+    "author": "GerardM",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0/"
+  },
+  "sighting_violet_1": {
+    "filename": "violette_reichenbach.png",
+    "wikimedia": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5b/Viola_reichenbachiana_001.jpg/960px-Viola_reichenbachiana_001.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Viola_reichenbachiana_001.jpg",
+    "author": "H. Zell",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0/"
+  }
+}
