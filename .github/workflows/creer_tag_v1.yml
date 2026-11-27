@@ -1,0 +1,24 @@
+name: Créer le repère V1.0.0
+on:
+  push:
+    paths:
+      - '.github/workflows/creer_tag_v1.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  tag:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Créer l'étiquette sur la version importée
+        shell: bash
+        run: |
+          if git ls-remote --exit-code --tags origin "refs/tags/v1.0.0"; then
+            echo "v1.0.0 existe déjà."
+            exit 0
+          fi
+          git tag v1.0.0 1ac4f64db6ab3928680938662cd75f1911a10a5b
+          git push origin refs/tags/v1.0.0
